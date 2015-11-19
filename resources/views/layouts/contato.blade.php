@@ -2,8 +2,6 @@
 
 @section('content')
 
-	casa
-        kjdsakljsa
-        jhj
+	leonardo
 
 @endsection
