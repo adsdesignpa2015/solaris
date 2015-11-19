@@ -1,0 +1,154 @@
+@font-face {
+    font-family: NexaLight;
+    src: url(../font/NexaLight.otf);
+}
+@font-face {
+    font-family: NexaBold;
+    src: url(../font/NexaBold.otf);
+}
+.NexaBold{font-family: NexaBold;}
+
+html {position: relative; min-height: 100%;}
+
+body {background-image: url(../img/fundo.png); background-position: center; margin-bottom: 70px; font-family: NexaLight; font-size: 14px; color: #626262;}
+
+header .container-logo{height: 140px; position: relative;}
+	header .container-logo img{position: absolute; left: 0; bottom: 0;  width: 100%;}
+
+header .container-welcome{height: 140px; position: relative;}
+	header .container-welcome > div{position: absolute; left: 0; bottom: 0; width: 100%;}
+		header .container-welcome > div > span{display: inline-block; width: 100%; text-align: right; color: #2059fc;}
+		header .container-welcome > div .blue-box{background: #2059fc; color:#fff; height: 100px; padding: 7px 10px;}
+		header .container-welcome .blue-box > span{display: block;}
+		header .container-welcome .blue-box > span:nth-child(2){font-family: NexaBold;}
+		header .container-welcome .blue-box span:nth-child(3){margin: 17px 0px 17px 0px; font-size: 10px;}
+		header .container-welcome .blue-box > span:nth-child(4) a{color:#fff; font-family: NexaBold;}	
+		header .container-welcome .blue-box > span:nth-child(4) a:hover{text-decoration: none;}	
+		header .container-welcome .blue-box img{float: right; height: 85px; width: 85x; 
+				-moz-border-radius: 42px; 
+				-webkit-border-radius: 42px; 
+				border-radius: 42px;}
+			
+header .container-login{height: 140px; position: relative;}			
+	header .container-login > div{position: absolute; left: 0; bottom: 0; width: 100%;}
+		header .container-login > div > span a{display: inline-block; width: 100%; text-align: right; color: #2059fc; font-size: 19px;}
+		header .container-login > div > span a:hover{text-decoration: none;}
+		header .container-login > div > div{background: #2059fc; color:#fff; height: 100px; padding: 7px 10px;}
+		header .container-login .input-text{ border: none; color:#626262; outline: none; padding: 0px 15px; line-height: 30px; margin-top: 8px;
+			-moz-border-radius: 15px; 
+			-webkit-border-radius: 15px; 
+			border-radius: 15px;}
+		header .container-login .input-submit{background: #b9cbff; color:#2059fc; border: none; font-size: 19px; line-height: 19px; height: 30px; padding: 0px 10px; margin-left: 10px;
+			-moz-border-radius: 6px; 
+			-webkit-border-radius: 6px; 
+			border-radius: 6px}
+
+	
+        header .container{margin-bottom: 50px;}	
+	@media screen and (max-width: 767px) {
+		header .container{margin-bottom: 25px;}	
+	}
+/*
+header nav{background: #fff; 
+		-webkit-box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.46);
+		-moz-box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.46);
+		box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.46);
+	}
+	header nav ul{text-align: center;}
+		header nav li{display: inline-block;}
+			header nav li a{display: inline-block; padding: 24px 45px 13px 45px; font-size: 20px; color:#2059fc;  font-family: NexaBold;}
+			header nav li a:hover{text-decoration: none; color:#2059fc;}
+			header nav li:first-child a{color:#626262;}
+			header nav li:first-child a:hover{color:#626262;}
+@media (min-width: 768px) and (max-width: 991px) {
+	header nav li a{display: inline-block; padding: 24px 20px 13px 20px; font-size: 20px; color:#2059fc;  font-family: NexaBold;}
+}	
+*/			
+header .navbar{background: #fff; border: none; margin-bottom: 0px;
+	-webkit-box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.46);
+		-moz-box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.46);
+		box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.46);}
+	header .navbar ul{width: 100%; text-align: center;}
+	@media (min-width: 768px){
+		header .navbar ul li{float: none; display: inline-block;}
+		header .navbar ul li a{display: inline-block; padding: 24px 40px 13px 40px; font-size: 20px; color:#2059fc!important;  line-height: 28px; font-family: NexaBold;}
+		header .navbar li:first-child a{ color:#626262!important;}
+	}
+	@media (min-width: 768px) and (max-width: 991px) {
+		header .navbar ul li a{padding: 24px 20px 13px 20px;}
+	}
+	@media screen and (max-width: 767px) {
+		header .navbar ul li a{font-size: 20px; color:#2059fc!important;  line-height: 28px; font-family: NexaBold;}
+		header .navbar li:first-child a{ color:#626262!important;}
+	}
+	.navbar-toggle{background: #2059fc!important;}
+	.navbar-default .navbar-toggle .icon-bar{background: #fff;}
+		
+		
+section{padding: 30px 0px 30px 0px;}			
+			
+footer {position: absolute; bottom: 0; width: 100%; height: 70px; background-color: #fff;
+	-webkit-box-shadow: inset 4px 4px 7px 0px rgba(0,0,0,0.59);
+	-moz-box-shadow: inset 4px 4px 7px 0px rgba(0,0,0,0.59);
+	box-shadow: inset 4px 4px 7px 0px rgba(0,0,0,0.59);
+}
+	footer p{text-align: center; line-height: 70px; color:#626262; margin: 0px; position: relative; font-family: NexaBold; font-size: 10px;}
+		footer p img{vertical-align: baseline; margin-right: 10px;}
+		footer p a{color:#2059fc; margin-left: 5px;}
+		footer p a:hover{text-decoration: none; color:#2059fc;}
+
+
+/* possiveis regras universais */
+section h1{font-size: 20px; color:#2059fc; font-family: NexaBold; margin: 0px 0px 20px 0px;}
+
+.blue-arrow-right{
+	width:0;
+    height:0;
+    border:8px solid transparent;
+    display:inline-block;
+	border-left-color:#2059fc;
+	margin-right: 10px;
+}
+
+.blue-arrow-left{
+	width:0;
+    height:0;
+    border:8px solid transparent;
+    display:inline-block;
+	border-right-color:#2059fc;
+	margin-left: 2px;
+}
+
+.white-box{
+	background: #fff;
+	-webkit-box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.46);
+	-moz-box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.46);
+	box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.46);
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	padding: 15px;
+}
+
+.required-asterisk{color:#2059fc;}
+.input-text{font-size: 16px; line-height: 30px; border: 1px solid #959595; height: 30px; outline: none; padding: 0px 15px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;}
+.select{font-size: 16px; line-height: 30px; border: 1px solid #959595; height: 30px; outline: none; padding: 0px 15px; background: #fff;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;}
+
+/* fim */
+
+
+.fs-27{font-size: 27px;}		
+.fs-19{font-size: 19px;}
+.fs-18{font-size: 18px;}
+.fs-14{font-size: 14px;}
+.fs-13{font-size: 13px;}
+.fs-12{font-size: 12px;}
+
+
+

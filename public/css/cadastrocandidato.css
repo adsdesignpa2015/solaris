@@ -1,0 +1,21 @@
+section .white-box{font-size: 16px;}
+section .white-box .row{margin-bottom: 10px;}
+
+section .white-box .input-text{width: 100%;}
+section .white-box .select{width: 100%;}
+
+section .white-box .input-checkbox{margin-left: 15px;}
+
+section .white-box .input-checkbox:first-child{margin-left: 0px;}
+
+section > .container > .row{margin-bottom: 25px;}
+
+
+section > .container > .row:last-child a{display: inline-block; background: #2059fc; font-size: 21px; padding: 10px 0px; color: #fff; font-family: NexaBold; width: 100%; text-align: center;
+    -moz-border-radius: 7px; 
+    -webkit-border-radius: 7px; 
+    border-radius: 7px;
+}
+section > .container > .row:last-child a:hover{color:#fff;  text-decoration: none;}
+
+section > .container > .row:last-child a img{margin-right: 25px;}

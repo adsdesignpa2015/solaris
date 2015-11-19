@@ -1,0 +1,10 @@
+section .container .row:last-child{margin-top: 50px;}
+
+section a{display: inline-block; background: #2059fc; font-size: 21px; padding: 10px 0px; color: #fff; font-family: NexaBold; width: 100%; text-align: center;
+    -moz-border-radius: 7px; 
+    -webkit-border-radius: 7px; 
+    border-radius: 7px;
+}
+section a:hover{color:#fff;  text-decoration: none;}
+
+section a img{margin-right: 25px;}
