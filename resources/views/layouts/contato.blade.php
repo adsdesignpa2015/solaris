@@ -2,6 +2,7 @@
 
 @section('content')
 
+
 <div class="container" >
 	<div class="row" >
 		<div class="col-lg-1" style="background: #00f;"><div class="white-box">dsd</div></div>
