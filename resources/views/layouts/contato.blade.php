@@ -2,6 +2,6 @@
 
 @section('content')
 
-	leonardo
+	joao
 
 @endsection
