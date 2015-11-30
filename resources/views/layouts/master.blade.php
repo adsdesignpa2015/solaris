@@ -14,7 +14,7 @@
 				<div class="row">
 					<div class="col-lg-5 col-md-5 col-sm-6 hidden-xs">
 						<div class="container-logo">
-							<a href="/"><img src="img/logo.png"></a>
+							<a href="http://www.cila.com.br/solaris2/public"><img src="img/logo.png"></a>
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-4 col-sm-5 col-lg-offset-3 col-md-offset-3 col-sm-offset-1">
@@ -58,7 +58,7 @@
 					</div>
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav">
-							<li><a href="/">HOME</a></li>
+							<li><a href="http://www.cila.com.br/solaris2/public">HOME</a></li>
 							<li><a href="vagas">VAGAS</a></li>
 							<li><a href="empresas">EMPRESAS</a></li>
 							<li><a href="concursos">CONCURSOS</a></li>
@@ -73,7 +73,7 @@
 			@yield('content')
 		</section>
 		<footer class="footer">			
-			<p><img src="img/solaris-footer.png" class="hidden-xs"> COPYRIGHT &copy; SOLARIS VAGAS PARA PCD - TODOS OS DIREITOS RESERVADOS . <a href="#">FALE CONOSCO</a></p>
+			<p><img src="img/solaris-footer.png" class="hidden-xs"> COPYRIGHT &copy; SOLARIS VAGAS PARA PCD - TODOS OS DIREITOS RESERVADOS . <a href="contato">FALE CONOSCO</a></p>
 		</footer>
 	</body>
 </html>
