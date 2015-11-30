@@ -1,0 +1,27 @@
+.search{position: relative;}
+	.search form{margin: 0px;}
+	.search .input-text{border: 2px solid #2059fc; height: 30px; width: 100%; padding: 0px 50px 0px 15px; outline: none; font-size: 14px; font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+		-webkit-border-radius: 15px;
+		-moz-border-radius: 15px;
+		border-radius: 15px;
+	}
+.search .seach-button{position: absolute; top: 3; right: 5; outline: none;}
+
+section > .container > .row:first-child{margin-bottom: 20px;}
+
+.filter h3{color:#2059fc; font-size: 16px; font-family: NexaBold;}
+.filter select{width: 100%; background: #fff; height: 25px;}
+.filter .input-submit{background: #fff; border: 1px solid #777; margin-top: 10px;}
+
+.concursos > div{margin-bottom: 25px;}
+.concursos h2{font-size: 20px; color:#2059fc; font-family: NexaBold; margin: 0px 0px 0px 0px;}
+.concursos h4{font-size: 16px; margin: 5px 0px 10px 0px;}
+.concursos p{text-align: justify;}
+.concursos a{position: absolute; bottom: 0px; right: 15px; border: 2px solid #2059fc; font-size: 16px; color: #2059fc; float: right; font-family: NexaBold; padding: 0px 5px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+}
+.concursos a:hover{text-decoration: none;}
+
+.concursos .row{position: relative;}

@@ -58,11 +58,11 @@
 					</div>
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav">
-							<li><a href="index.html">HOME</a></li>
-							<li><a href="index.html">VAGAS</a></li>
-							<li><a href="index.html">EMPRESAS</a></li>
-							<li><a href="index.html">CONCURSOS</a></li>
-							<li><a href="index.html">NOTÍCIAS</a></li>
+							<li><a href="/">HOME</a></li>
+							<li><a href="vagas">VAGAS</a></li>
+							<li><a href="empresas">EMPRESAS</a></li>
+							<li><a href="concursos">CONCURSOS</a></li>
+							<li><a href="noticias">NOTÍCIAS</a></li>
 						</ul>
 					</div>
 				</div>

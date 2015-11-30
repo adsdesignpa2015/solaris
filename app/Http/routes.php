@@ -30,3 +30,19 @@ Route::get('cadastroempresa', function () {
 Route::get('contato', function () {
     return view('layouts.contato');
 });
+
+Route::get('noticias', function () {
+    return view('layouts.noticias');
+});
+
+Route::get('concursos', function () {
+    return view('layouts.concursos');
+});
+
+Route::get('vagas', function () {
+    return view('layouts.vagas');
+});
+
+Route::get('empresas', function () {
+    return view('layouts.empresas');
+});

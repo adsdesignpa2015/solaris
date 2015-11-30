@@ -1,0 +1,40 @@
+.search{position: relative;}
+	.search form{margin: 0px;}
+	.search .input-text{border: 2px solid #2059fc; height: 30px; width: 100%; padding: 0px 50px 0px 15px; outline: none; font-size: 14px; font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+		-webkit-border-radius: 15px;
+		-moz-border-radius: 15px;
+		border-radius: 15px;
+	}
+.search .seach-button{position: absolute; top: 3; right: 5; outline: none;}
+
+.news{margin-top: 10px;}
+@media (max-width: 991px) {
+	.news{margin-bottom: 25px;}
+}
+.news > div{margin-bottom: 36px;}
+.news >div:last-child{margin-bottom: 0px;}
+	.news img{float: left; margin-right: 15px;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+	}
+	.news h2{font-size: 16px; font-family: NexaBold; color:#2059fc; margin: 0px 0px 10px 0px;}
+	.news p{font-size: 12px; margin-bottom: 10px; text-align: justify; font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif; }
+	.news .read-more{background: #2059fc; color:#fff; padding: 5px 0px 2px 8px; line-height: 14px; display: inline-block; float: right; font-family: NexaBold;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+	}
+	.news a:hover{text-decoration: none;}
+	
+.white-arrow-right{
+	width:0;
+    height:0;
+    border:5px solid transparent;
+    display:inline-block;
+	border-left-color:#fff;
+	margin-left: 10px;
+	vertical-align: baseline;
+}
+
+section > .container > .row{margin-bottom: 20px;}
